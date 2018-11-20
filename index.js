@@ -1,11 +1,11 @@
 var johnsDeliLine = [];
 var counter = 0;
 
-function takeANumber (numbers) {
-  johnsDeliLine.push(numbers);
+function takeANumber () {
+  counter += 1;
   
   
-  
+  return "Welcome, you are " + counter + "in line.";
 }
 
 //function takeANumber (johnsDeliLine, newPersonName) {   
