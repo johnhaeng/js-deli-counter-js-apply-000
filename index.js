@@ -1,4 +1,12 @@
 var johnsDeliLine = [];
+var counter = 0;
+
+function takeANumber (numbers) {
+  johnsDeliLine.push(numbers);
+  
+  
+  
+}
 
 //function takeANumber (johnsDeliLine, newPersonName) {   
   //johnsDeliLine.push(newPersonName);
