@@ -1,6 +1,7 @@
 var johnsDeliLine = [];
 
-function takeANumber (johnsDeliLine, newPersonName) {   johnsDeliLine.push(newPersonName);
+function takeANumber (johnsDeliLine, newPersonName) {   
+  johnsDeliLine.push(newPersonName);
   
   if (johnsDeliLine.length === 0) {
     return "Welcome, " + newPersonName + "." + " You are number 1 in line.";
