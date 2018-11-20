@@ -3,9 +3,9 @@ var johnsDeliLine = [];
 function takeANumber (johnsDeliLine, newPersonName) {   
   johnsDeliLine.push(newPersonName);
   
-  if (johnsDeliLine.length === 0) {
-    return "Welcome, " + newPersonName + "." + " You are number 1 in line.";
-  }
+  // if (johnsDeliLine.length === 0) {
+   // return "Welcome, " + newPersonName + "." + " You are number 1 in line.";
+  // }
 
   // for (var i = 0; i < johnsDeliLine.length; i += 1) {
     // var person = johnsDeliLine[i];
@@ -13,7 +13,7 @@ function takeANumber (johnsDeliLine, newPersonName) {
 
     
     return "Welcome, " + newPersonName + "." + " You are number " + number + " in line.";
-  }
+ // }
 
   return johnsDeliLine;
 }
