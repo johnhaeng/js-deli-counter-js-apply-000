@@ -8,7 +8,7 @@ function takeANumber (johnsDeliLine, newPersonName) {
   }
 
   for (var i = 0; i < johnsDeliLine.length; i += 1) {
-    var person = johnsDeliLine[i];
+    // var person = johnsDeliLine[i];
     var number = johnsDeliLine.length;
 
     
