@@ -7,7 +7,7 @@ function takeANumber (johnsDeliLine, newPersonName) {
     return "Welcome, " + newPersonName + "." + " You are number 1 in line.";
   }
 
-  for (var i = 0; i < johnsDeliLine.length; i += 1) {
+  // for (var i = 0; i < johnsDeliLine.length; i += 1) {
     // var person = johnsDeliLine[i];
     var number = johnsDeliLine.length;
 
