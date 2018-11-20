@@ -15,7 +15,7 @@ function takeANumber (johnsDeliLine, newPersonName) {
     return "Welcome, " + newPersonName + "." + " You are number " + number + " in line.";
  // }
 
-  return johnsDeliLine;
+ // return johnsDeliLine;
 }
 
 
